@@ -1,0 +1,20 @@
+{
+  "name": "fastn-test",
+  "version": "1.0.0",
+  "description": "fastn test",
+  "main": "index.browser.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "beefy index.js:index.browser.js --live",
+    "test": "node ./tests"
+  },
+  "author": "",
+  "license": "none",
+  "dependencies": {
+    "beefy": "^2.1.5",
+    "browserify": "^10.2.4",
+    "fastn": "^1.10.6"
+  }
+}
