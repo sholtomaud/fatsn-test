@@ -10,4 +10,7 @@ var something = fastn('h1', 'Hello World');
 
 something.render();
 
-document.body.appendChild(something.element);
+// Wait till the document is ready.
+window.addEventListener('load', function(){
+    document.body.appendChild(something.element);
+});
